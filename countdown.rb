@@ -4,8 +4,8 @@ def countdown(num)
   num = 10 
   
   while num > 0 
-    num -= 1
     puts "#{num} SECOND(S)!"
+     num -= 1
     break
   end
   
